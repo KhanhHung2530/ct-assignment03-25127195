@@ -46,7 +46,7 @@ Ensure Python 3.10+ is installed.
 ```powershell
 # 1. Clone the repository
 git clone https://github.com/KhanhHung2530/ct-assignment03-25127195
-cd lumen-travel
+cd ct-assignment03-25127195
 
 # 2. Create and activate a virtual environment
 python -m venv .venv
