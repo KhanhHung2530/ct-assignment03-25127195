@@ -138,4 +138,4 @@ Settings: k = 3, threshold = 0.40.
 I used Claude (Anthropic) to explain the assignment, suggest the project structure, draft starter code and the guide entries from public sources, and help debug connection and output problems. I ran and tested all code, checked the guide against its sources, tuned the threshold, and wrote the test table from my own runs.
 
 ## 12. Demonstration Video
-Video Link: [Watch Demonstration Video]()
+Video Link: [Watch Demonstration Video](https://drive.google.com/file/d/1ne_Ui87Bt_C7JNqavrHWXrjEAgVvXoV6/view?usp=sharing)
