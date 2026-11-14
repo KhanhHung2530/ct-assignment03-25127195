@@ -14,6 +14,12 @@ TESTS = [
     ("not in guide", "What are the opening hours of An Giang Museum?", None),
     ("not in guide", "What is the phone number of the city hospital?", None),
     ("two entries", "How do I get to the island where President Ton Duc Thang was born?", "G02 + G03"),
+    # Extra hard questions to look for real failures
+    # Extra hard questions to look for real failures
+    ("Hard", "How much is the ferry to Ong Ho Islet?", "none"),
+    ("Hard", "Which place is open at 6 am for breakfast?", "G12"),
+    ("Hard", "What is the cheapest meal in Long Xuyen?", "G11 + G13"),
+    ("Hard", "Cho noi Long Xuyen may gio dong nhat?", "G01"),
 ]
 
 client = rag.get_client()
