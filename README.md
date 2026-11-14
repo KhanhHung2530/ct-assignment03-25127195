@@ -28,7 +28,7 @@ Key features include:
 
 ## 4. Project Structure
 ```text
-lumen-travel/
+ct-assignment03-25127195/
 ├── app.py                # Streamlit UI: sign-in page and chat page
 ├── rag.py                # Embedding, retrieval (filter, score, top-k) and answer generation
 ├── firebase_client.py    # Firebase Authentication REST calls
