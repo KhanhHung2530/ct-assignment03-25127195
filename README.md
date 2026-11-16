@@ -121,7 +121,7 @@ Settings: k = 3, threshold = 0.40.
 
 ## 9. Design Decisions
 - **k = 3:** the guide is small (18 entries); k = 3 covers questions that need two entries (question 7) without adding much noise.
-- **Threshold = 0.40:** the lowest top-1 score of an answerable question was 0.569 and the off-topic question scored 0.194. 0.40 keeps G03 (0.450) in question 7. A higher value would break question 9 (0.413).
+- **Threshold = 0.40:** the completely off-topic question (6) scored at most 0.194, and the lowest score of a correctly retrieved expected entry was 0.413 (G12 in question 9). 0.40 sits between the two and also keeps G03 (0.450) in question 7. A higher value would break question 9.
 - **Two layers for I don't know:** the threshold removes unrelated entries, but question 5 scored 0.753 because the guide covers the museum without its opening hours. Only the prompt rule (answer only from the entries, otherwise say I don't know) catches this case.
 - **Embedding once:** the guide is embedded once with `@st.cache_resource` and reused for every question.
 
